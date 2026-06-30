@@ -1,0 +1,21 @@
+{
+  "name": "agentic-engineer",
+  "version": "0.1.0",
+  "description": "A public toolkit of Claude Code agents and skills for everyday software engineering: planning, code review, testing, debugging, refactoring, and documentation.",
+  "author": {
+    "name": "shivaganeshk1098"
+  },
+  "homepage": "https://github.com/shivaganeshk1098-bit/plugin-tools-for-AI-",
+  "repository": "https://github.com/shivaganeshk1098-bit/plugin-tools-for-AI-",
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "skills",
+    "software-engineering",
+    "code-review",
+    "testing",
+    "debugging",
+    "refactoring",
+    "documentation"
+  ]
+}

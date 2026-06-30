@@ -1,0 +1,25 @@
+{
+  "name": "plugin-tools-for-ai",
+  "owner": {
+    "name": "shivaganeshk1098"
+  },
+  "metadata": {
+    "description": "A public marketplace of practical Claude Code plugins for AI-assisted software engineering.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "agentic-engineer",
+      "source": "./",
+      "description": "Agents and skills for everyday software engineering: planning, code review, testing, debugging, refactoring, and documentation.",
+      "category": "development",
+      "keywords": [
+        "agents",
+        "skills",
+        "code-review",
+        "testing",
+        "refactoring"
+      ]
+    }
+  ]
+}
