@@ -94,6 +94,66 @@ Get the debugger to find why the nightly job crashes.
 
 ---
 
+## Worked example: build a feature end-to-end
+
+Here's how the pieces fit together on a real task — adding a feature, then
+verifying and shipping it. Each step is one thing you type in Claude Code.
+
+**1. Plan it** — scope the change before writing code:
+
+```text
+/plan-feature add pagination to the GET /users API
+```
+> Returns a numbered plan: the files to touch (route handler, query layer,
+> tests), the approach, edge cases (empty page, out-of-range offset), and what's
+> out of scope. Review it, then let Claude implement.
+
+**2. Test it** — lock in the behavior:
+
+```text
+/write-tests for the new pagination logic
+```
+> Adds tests for the happy path, boundaries (page 1, last page), and bad input
+> (negative offset), matching your existing test style — and runs them.
+
+**3. A test fails? Diagnose it** — don't guess:
+
+```text
+/debug-issue the last-page test returns one extra row
+```
+> Reproduces the failure, traces the off-by-one to the exact line, and proposes
+> the minimal fix with a regression test.
+
+**4. Clean it up** — improve structure safely:
+
+```text
+/safe-refactor the pagination helper — the offset math is duplicated
+```
+> Extracts the shared logic, keeps behavior identical, and re-runs the tests to
+> prove it.
+
+**5. Review before committing** — catch what you missed:
+
+```text
+/review-diff
+```
+> Ranked findings (correctness, security, reliability) on your uncommitted
+> changes, each with `file:line` and a concrete fix.
+
+**6. Document and commit:**
+
+```text
+Have the docs-writer update the API docs for the new page/limit params
+/craft-commit
+```
+
+The same flow works with the agents directly — e.g. *"Use the architect to
+plan this, then have the test-engineer cover it, then the code-reviewer to check
+it."* Skills are the quick `/` shortcuts; agents are the specialists Claude
+hands the work to.
+
+---
+
 ## Repository layout
 
 ```
