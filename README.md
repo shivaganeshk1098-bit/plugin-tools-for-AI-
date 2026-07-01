@@ -20,6 +20,10 @@ skills** — each with one clear job, the right tool permissions, and a focused,
 battle-tested prompt. It's meant to be genuinely useful to anyone: clear,
 conventional, and free of project-specific assumptions.
 
+> 📦 **This repo is a marketplace with two plugins:**
+> - **`agentic-engineer`** *(this README)* — for **engineers**: planning, review, testing, debugging, refactoring, docs.
+> - **[`ai-enablement-kit`](ai-enablement-kit/)** — for **everyone**: prompt writing, summarizing, drafting, meeting notes, plain-language explanations, translation, and writing polish.
+
 ## Contents
 
 - [What's inside](#whats-inside)

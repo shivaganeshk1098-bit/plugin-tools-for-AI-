@@ -4,8 +4,8 @@
     "name": "shivaganeshk1098"
   },
   "metadata": {
-    "description": "A public marketplace of practical Claude Code plugins for AI-assisted software engineering.",
-    "version": "0.1.0"
+    "description": "A public marketplace of practical Claude Code plugins for AI-assisted work.",
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -19,6 +19,19 @@
         "code-review",
         "testing",
         "refactoring"
+      ]
+    },
+    {
+      "name": "ai-enablement-kit",
+      "source": "./ai-enablement-kit",
+      "description": "AI tools for everyone: prompt writing, summarizing, drafting, meeting notes, plain-language explanations, translation, and writing polish.",
+      "category": "productivity",
+      "keywords": [
+        "ai-enablement",
+        "productivity",
+        "prompt-engineering",
+        "writing",
+        "translation"
       ]
     }
   ]

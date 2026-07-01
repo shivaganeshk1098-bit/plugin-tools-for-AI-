@@ -1,0 +1,20 @@
+{
+  "name": "ai-enablement-kit",
+  "version": "0.1.0",
+  "description": "AI tools for everyone: prompt writing, summarizing, drafting, meeting notes, plain-language explanations, translation, and writing polish.",
+  "author": {
+    "name": "shivaganeshk1098"
+  },
+  "homepage": "https://github.com/shivaganeshk1098-bit/plugin-tools-for-AI-",
+  "repository": "https://github.com/shivaganeshk1098-bit/plugin-tools-for-AI-",
+  "license": "MIT",
+  "keywords": [
+    "ai-enablement",
+    "productivity",
+    "prompt-engineering",
+    "summarization",
+    "writing",
+    "translation",
+    "skills"
+  ]
+}
