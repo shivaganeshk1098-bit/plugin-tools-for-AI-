@@ -1,13 +1,35 @@
-# plugin-tools-for-AI · `agentic-engineer`
+<div align="center">
 
-A small, public **Claude Code plugin** that gives you a focused team of
-specialized **agents** and ready-to-run **skills** for everyday software
-engineering — planning, code review, testing, debugging, refactoring, and
-documentation.
+# 🤖 agentic-engineer
 
-It's meant to be genuinely useful to anyone: clear, conventional, and free of
-project-specific assumptions. Install it, and Claude Code gains six expert
-sub-agents and seven workflow skills.
+### A Claude Code plugin — a focused team of AI agents & skills for everyday software engineering
+
+*Planning · Code review · Testing · Debugging · Refactoring · Documentation*
+
+[![Validate plugin](https://github.com/shivaganeshk1098-bit/plugin-tools-for-AI-/actions/workflows/validate.yml/badge.svg)](https://github.com/shivaganeshk1098-bit/plugin-tools-for-AI-/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Agents](https://img.shields.io/badge/agents-6-blue)
+![Skills](https://img.shields.io/badge/skills-7-blueviolet)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin-8A2BE2)](https://claude.com/claude-code)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
+</div>
+
+Install it, and Claude Code gains **6 expert sub-agents** and **7 workflow
+skills** — each with one clear job, the right tool permissions, and a focused,
+battle-tested prompt. It's meant to be genuinely useful to anyone: clear,
+conventional, and free of project-specific assumptions.
+
+## Contents
+
+- [What's inside](#whats-inside)
+- [Installing](#installing)
+- [Using it](#using-it)
+- [Worked example: build a feature end-to-end](#worked-example-build-a-feature-end-to-end)
+- [Repository layout](#repository-layout)
+- [How it's structured (so you can build your own)](#how-its-structured-so-you-can-build-your-own)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -176,6 +198,11 @@ hands the work to.
 │   ├── safe-refactor/
 │   ├── explain-codebase/
 │   └── craft-commit/
+├── scripts/
+│   └── validate_plugin.py  # structure validation (run in CI)
+├── .github/workflows/
+│   └── validate.yml        # CI: validates manifests, agents & skills
+├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── README.md
